@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 768px){
+    header.cabecalho{
+        display: flex;
+        justify-content: space-around;
+        height: 532px;
+        position: relative;
+    }
+
+    header.cabecalho > div.logo {
+        top: -12%;
+    }
+
+    header.cabecalho > div.logo > img {
+        height: 470px;
+        position: relative;
+        top: 126px;
+    
+    }
+
+
+    header.cabecalho > div.fixo > span#burguer {
+        display: none;
+    }
+
+    header.cabecalho > div.fixo > div.menu {
+        display: block;
+        opacity: .9;
+        right: 0;
+        width: 447px;
+        top: -22px;
+    }    
+
+    header.cabecalho > div.fixo > div.menu > ul{
+        background-color: rgba(0, 0, 0, 0.719);
+        padding: 20px 7px;
+        margin: auto;
+        border-radius: 3px;
+        text-align: center;
+    }
+    
+    header.cabecalho > div.fixo > div.menu > ul > li {
+        display: inline;
+        
+    }
+
+    header.cabecalho > div.fixo > div.menu > ul > li > a {
+        background-color: transparent;
+        color: white;
+        font-size: 1em;
+    }
+
+}
+
+
+@media screen and (min-width: 1920px) {
+    header.cabecalho > div.fixo > div.menu {
+        margin: auto;
+        left: -736.22px;
+    }      
+}
