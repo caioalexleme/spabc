@@ -144,6 +144,34 @@ header.cabecalho > div.wpp > a > img:active {
 
 
 main.corpo > section.servicos {
-    padding: 50px;
+    width: 100vw;
+    max-width: 1920px;
+    margin: auto;
+    
+    
+}
+
+.txt-servicos {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.txt-servicos > h2{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.6em;
+    text-shadow: 1px 1px 3px black;
+    margin-bottom: 15px;
     text-align: center;
+    padding: 5px;
+}
+
+.img-servicos > img {
+    height: 66px;
+}
+
+.paragrafo > p {
+    font-family: 'Prompt', sans-serif;
+    padding: 0px 25px;
+    font-size: 1.2em;
 }
